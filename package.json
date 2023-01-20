@@ -1,0 +1,14 @@
+{
+  "name": "newrelic-train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-loader=newrelic/esm-loader.mjs app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newrelic": "^9.8.0"
+  }
+}
